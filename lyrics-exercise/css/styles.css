@@ -1,0 +1,19 @@
+	body{
+		color:pink;
+		text-align: center;
+		background: radial-gradient(red,purple);
+		font-size: 12pt;
+		font-family:fantasy;
+	}
+	h1{
+		color:pink;
+		margin-top:50px;
+		font-size: 36pt;
+	}
+	h2{
+		font-size: 24pt;
+		color:pink;
+	}
+	div{
+		font-size: 14pt;
+	}
