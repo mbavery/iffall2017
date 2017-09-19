@@ -1,0 +1,22 @@
+	body{
+		color:pink;
+		text-align: center;
+		background: radial-gradient(red,purple);
+		font-size: 14pt;
+		font-family:'Poiret One', cursive;
+	}
+	h1{
+		color:pink;
+		margin-top:50px;
+		font-size: 36pt;
+		font-family: 'Berkshire Swash', cursive;
+	}
+	h2{
+		font-size: 24pt;
+		color:pink;
+		font-family: 'Berkshire Swash', cursive;
+	}
+	.chorus{
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 16pt;
+	}
