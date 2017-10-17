@@ -1,0 +1,552 @@
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_army {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 70px;
+				background-color: #545454;
+				border: 2px solid #ffc700;
+				color: #ffc700;
+				font-size: 70px;
+			}
+
+			a#btn_army:hover {
+				background-color: #276825;
+				border: 2px solid #ffe62d;
+				color: #ffe62d;
+			}
+
+
+			a#btn_oldnavy {
+				display: inline-block;
+				height: 44px;
+				box-sizing: border-box;
+				border-radius: 50%;
+				margin: auto;
+				margin-top: 105px;
+				padding: 5px 30px 10px 30px;
+				background-color: #000c6d;
+				color: #fff;
+				font-size: 24px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_oldnavy:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				/**background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				/**background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				/**background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				/**background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				/**background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				/**background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				/**filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_moo {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #bcfffc;
+				color: #00ff83;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_moo:hover {
+				color:#ffbae3;
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_electra {
+				display: inline-block;
+				margin:auto;
+				margin-top: 90px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #00e9ff;
+				font-size: 60px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_electra:hover {
+				color: #fff;
+				background-color: #00e9ff;
+			}
+
+			a#btn_facebook{
+				display: inline-block;
+				margin:auto;
+				margin-top: 90px;
+				background-color: #fff;
+				color: #000c6d;
+				font-size: 60px;
+			}
+
+			a#btn_facebook:hover {
+				color: #000c6d;
+				background-color: #fff;
+				font-size:240px;
+				margin-top: 0px;
+				padding: 0px 0px 0px 0px;
+				line-height:240px;
+			}
+
+			a#btn_instagram{
+				display: inline-block;
+				margin:auto;
+				margin-top: 90px;
+				width: 80px;
+				height: 82px;
+				box-sizing: border-box;
+				border-radius: 10%;
+				background: linear-gradient(#1900ff,#ff0072);
+				color:white;
+				font-size: 60px;
+				transition: 1s;
+			}
+			a#btn_instagram:hover {
+				transform: rotate(360deg);
+				transition: 1s;
+			}
+
+			a#btn_coke{
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				border-radius: 50%;
+				margin: auto;
+				padding: 35px 10px 10px 10px;
+				margin-top: 85px;
+				background-color: #ff0000;
+				color: #fff;
+				font-size: 20px;
+				font-family:  'Lobster', cursive;
+				text-decoration: none;
+				transition: 1s;
+			}
+
+			a#btn_coke:hover{
+				color:#f00;
+				transition: 1s;
+				transform: rotate(360deg);
+				background-color: #fff;
+			}
+
+			a#btn_hsn{
+				display: inline-block;
+				height: 44px;
+				box-sizing: border-box;
+				border-radius: 2%;
+				margin: auto;
+				margin-top: 105px;
+				padding: 5px 30px 10px 30px;
+				background-color: #00b2ff;
+				color: #fff;
+				font-size: 24px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_hsn:hover{
+				background:linear-gradient(#00b2ff,#317491);
+			}
+
+			a#btn_apple{
+				display: inline-block;
+				margin:auto;
+				margin-top: 90px;
+				width: 80px;
+				height: 82px;
+				box-sizing: border-box;
+				border-radius: 10%;
+				background: linear-gradient(#dbdbdb,#c4c4c4);
+				color:#a0a0a0;
+				font-size: 60px;
+				transition: 1s;
+			}
+			a#btn_apple:hover {
+				transform: rotate(360deg);
+				transition: 1s;
+				color:#fff;
+			}			
+
+			a#btn_ibm{
+				display: inline-block;
+				width: 150px;
+				height: 90px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				background-color: #fff;
+				color:#000c6d;
+				font-family: 'Bevan', cursive;
+				font-size: 59px;
+				font-style:bold;
+				text-decoration: none;
+				transition: 1s;
+			}
+
+			a#btn_ibm:hover {
+				background: repeating-linear-gradient(#000c6d,#000c6d 10px, #47caff 10px,#47caff 20px);
+				color:#fff;
+				transition: 2s;
+
+			}
+
+			a#btn_velocity{
+				display: inline-block;
+				margin:auto;
+				margin-top: 90px;
+				background-color: #fff;
+				color: #b2b2b2;
+				font-size: 60px;
+			}
+
+			a#btn_velocity:hover {
+				color: #b2b2b2;
+				background-color: #fff;
+				font-size:230px;
+				margin-top: 0px;
+				padding: 0px 0px 0px 0px;
+				line-height:240px;
+				transition:3s;
+			}
+
+			a#btn_tuckerallen {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				margin: auto;
+				margin-top: 70px;
+				transition: 1s;
+			}
+
+			a#btn_tuckerallen:hover {
+				text-indent: 200px;
+				transition: 1s;
+			}
+
+			a#btn_foreflight {
+				display: inline-block;
+				width: 150px;
+				height: 150px;
+				margin: auto;
+				margin-top: 60px;
+				background-image: url(https://evadotdotcom.files.wordpress.com/2017/03/foreflight-stacked-logo-with-tagline-black.jpg?w=816);
+				background-size: 75%;
+				background-repeat: no-repeat;
+				background-position: center;
+				text-indent: -600px;
+			}
+
+			a#btn_foreflight:hover{
+				text-indent: 500px;
+				transition: 2s;
+			}
+			
+			a#btn_stjude {
+				display: inline-block;
+				width: 150px;
+				height: 150px;
+				margin: auto;
+				margin-top: 60px;
+				color:#fff;
+				background-image: url(https://community.activision.com/eikmo72643/attachments/eikmo72643/sledgehammer/246/1/st-jude-logo-wotext.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-position: top;
+				text-decoration: none;
+			}
+
+			a#btn_stjude:hover{
+				background-image: url(https://community.activision.com/eikmo72643/attachments/eikmo72643/sledgehammer/246/1/st-jude-logo-wotext.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-position: top;
+				color:#9e003c;
+				transition: 2s;
+			}
+
+			a#btn_mollyjogger {
+				display: inline-block;
+				width:200px;
+				height:70px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				font-family: 'Pacifico', cursive;
+				text-decoration: none;
+				font-size: 24pt;
+				text-align: center;
+				color:#2a5b00;
+				background-color:#fff;
+				transition: 1s;
+			}
+
+			a#btn_mollyjogger:hover {
+				background-color:#2a5b00;
+				color:#fff;
+				transition: 1s;
+			}
+
+			a#btn_colorrun{
+				display: inline-block;
+				width:200px;
+				height:50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				font-family: 'Open Sans', cursive;
+				text-decoration: none;
+				text-transform: bold;
+				font-size: 24pt;
+				text-align: center;
+				color:#000;
+				background-color: #fff;
+			}
+
+			a#btn_colorrun:hover {
+				transition: 1s;
+				color:#fff;
+				background:linear-gradient(#ff0000,#ffff00,#00ff1d,#00f6ff,#0000ff,#ff00f2);
+			}
+
+			a#btn_tesla{
+				display: inline-block;
+				width:100px;
+				height:100px;
+				box-sizing: border-box;
+				margin: auto;
+				background-color: transparent;
+				margin-top:50px;
+				color:#ff0000;
+				font-size: 100px;
+			}
+
+			a#btn_tesla:hover{
+				background-image: url(http://www.freelogovectors.net/wp-content/uploads/2016/11/tesla-motors-logo_1.jpg);
+				background-size: 100%;
+				transition: 1s;
+				color:transparent;
+				background-position: center;
+			}
+
+			a#btn_hulkhogan{
+				display: inline-block;
+				width:100px;
+				height:100px;
+				box-sizing: border-box;
+				margin: auto;
+				background-color: transparent;
+				margin-top:50px;
+				color:#af7200;
+				font-size: 20px;
+				text-decoration: none;
+			}
+
+			a#btn_hulkhogan:hover{
+				background-image: url(http://enfuzed.com/wp-content/uploads/2013/10/hulk-hogan.jpg);
+				background-size: 100%;
+				color:transparent;
+				background-position: center;
+			}
+
+			a#btn_michaelkors {
+				display: inline-block;
+				width:150px;
+				height:87px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 70px;
+				font-family: 'Open Sans', sans-serif;
+				text-decoration: none;
+				font-size: 24pt;
+				text-align: center;
+				color:#000;
+				background-color:#fff;
+				transition: 1s;
+			}
+
+			a#btn_michaelkors:hover {
+				background-color:#000;
+				color:#fff;
+				transition: 1s;
+			}
+
+			a#btn_foreflight {
+				display: inline-block;
+				width: 150px;
+				height: 150px;
+				margin: auto;
+				margin-top: 60px;
+				background-image: url(https://evadotdotcom.files.wordpress.com/2017/03/foreflight-stacked-logo-with-tagline-black.jpg?w=816);
+				background-size: 75%;
+				background-repeat: no-repeat;
+				background-position: center;
+				text-indent: -600px;
+			}
+
+			a#btn_foreflight:hover{
+				text-indent: 500px;
+				transition: 2s;
+			}
+
+			a#btn_ideo{
+			display: inline-block;
+			width: 100px;
+			height: 110px;
+			box-sizing: border-box;
+			margin: auto;
+			margin-top: 70px;
+			background-color: #d81c00;
+			color: #d81c00;
+			font-size: 35px;
+			text-align: center;
+			text-decoration: none;
+			font-family: "Bevan", cursive;
+			}
+
+			a#btn_ideo:hover{
+				transition: 1s;
+				color:#fff;
+			}
+
+			a#btn_sardella{
+				display: inline-block;
+				margin: auto;
+				margin-top: 80px;
+				font-family: 'Saira Extra Condensed', sans-serif;
+				font-size: 60px;
+				text-align: center;
+				text-decoration: none;
+				color:#fff;
+				outline-style: solid;
+				background-color: #00ffff;
+				outline-color: #0011ff;
+				transition: 1s;
+			}
+
+			a#btn_sardella:hover{
+				color:#fff;
+				outline-style: solid;
+				background-color: #0011ff;
+				outline-color: #00ffff;
+				transition: 1s;
+			}
+
+			a#btn_craigslist{
+				display: inline-block;
+				height:100px;
+				margin: auto;
+				margin-top: 80px;
+				font-family: 'Saira Extra Condensed', sans-serif;
+				font-size: 60px;
+				text-align: center;
+				text-decoration: none;
+			}
+
+			a#btn_craigslist:hover{
+				position: absolute;
+				margin-top: -1000px;
+				transition: 4s;
+			}
+
+			a#btn_lyft{
+				display: inline-block;
+				height: 48px;
+				box-sizing: border-box;
+				border-radius: 35%;
+				margin: auto;
+				margin-top: 105px;
+				padding: 5px 30px 10px 30px;
+				background-color: #ff3dc1;
+				color: #fff;
+				font-size: 24px;
+				font-family: 'Baloo Paaji', cursive;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_lyft:hover{
+				background:linear-gradient(#ff3dc1,#ba007e);
+			}
+
+			a#btn_samsung{
+				display: inline-block;
+				height:70px;
+				width:140px;
+				margin: auto;
+				margin-top: 80px;
+				font-family: 'Saira Extra Condensed', sans-serif;
+				font-size: 40px;
+				text-align: center;
+				text-decoration: none;
+				color:#fff;
+				outline-style: solid;
+				background-color: #fff;
+				outline-color: #000;
+				transition: 1s;
+			}
+
+			a#btn_samsung:hover{
+				color:#fff;
+				outline-style: solid;
+				background-color: #0011ff;
+				outline-color: #000;
+				transition: 1s;
+			}
+
+			a#btn_cartoonnetwork{
+				display: inline-block;
+				width: 150px;
+				height: 100px;
+				margin: auto;
+				margin-top: 60px;
+			}
