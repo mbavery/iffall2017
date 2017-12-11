@@ -1,0 +1,1855 @@
+html{
+	/**background: url(../images/smoke.svg);
+	margin: -10px 0px 0px -10px;
+	background-size: 100%;**/
+}
+img{
+	position:absolute;
+	z-index: 1;
+	width:1450px;
+	margin: -50px 0px 0px -10px;
+}
+.textcontainer{
+	margin: auto;
+	width:1440px;
+}
+.text{
+	z-index: 2;
+	position: relative;
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+
+a{
+	text-decoration: none;
+	color:#ff0077;
+	transition: 1s;
+}
+a:hover{
+	color:#8e8e8d;
+	transition: 1s;
+}
+h1{
+	z-index: 2;
+	position: relative;
+	font-family: 'Shrikhand', cursive;
+	font-size: 130pt;
+	text-align: center;
+	color:#ff0077;
+	transition:1s;
+	margin-top:200px;
+	margin-left:0px;
+}
+h1:hover{
+	color:#8e8e8d;
+	transition: 1s;
+}
+
+h2{
+	z-index: 2;
+	position: relative;
+	font-family: 'Shrikhand', cursive;
+	font-size: 50pt;
+	text-align: center;
+	color:#ff0077;
+	transition:1s;
+	margin-top: 450px;
+}
+h2:hover{
+	color:#8e8e8d;
+	transition: 1s;
+}
+
+
+.line1{
+	z-index: 2;
+	position: relative;
+	font-size: 40pt;
+	color:#ff0077;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.line1:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line2{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.line2:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line3{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:20px;
+}
+.line3:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line4{
+	z-index: 2;
+	position: relative;
+	font-size:36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:20px;
+}
+.line4:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line5{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:10px;
+}
+.line5:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line6{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.line6:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line7{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:20px;
+}
+.line7:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line8{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:60px;
+}
+.line8:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line9{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:100px;
+}
+.line9:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line10{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:125px;
+}
+.line10:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line11{
+	z-index: 2;
+	position: relative;
+	font-size: 36pt;
+	color:#ff00a5;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:135px;
+}
+.line11:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line12{
+	z-index: 2;
+	position: relative;
+	font-size: 34pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:155px;
+}
+.line12:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line13{
+	z-index: 2;
+	position: relative;
+	font-size: 34pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:155px;
+}
+.line13:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line14{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:155px;
+}
+.line14:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line15{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:155px;
+}
+.line15:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line16{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:160px;
+}
+.line16:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line17{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:170px;
+}
+.line17:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line18{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:200px;
+}
+.line18:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line19{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:230px;
+}
+.line19:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line20{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:280px;
+}
+.line20:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line21{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:300px;
+}
+.line21:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line22{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:310px;
+}
+.line22:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line23{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:310px;
+}
+.line23:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line24{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:310px;
+}
+.line24:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line25{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:300px;
+}
+.line25:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line26{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:295px;
+}
+.line26:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line27{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:290px;
+}
+.line27:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line28{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:280px;
+}
+.line28:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line29{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:270px;
+}
+.line29:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line30{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:260px;
+}
+.line30:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line31{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:250px;
+}
+.line31:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line32{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:240px;
+}
+.line32:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line33{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:230px;
+}
+.line33:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line34{
+	z-index: 2;
+	position: relative;
+	font-size: 30pt;
+	color:#ff00bb;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:228px;
+}
+.line34:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line35{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:220px;
+}
+.line35:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line36{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:210px;
+}
+.line36:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line37{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:210px;
+}
+.line37:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line38{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:210px;
+}
+.line38:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line39{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:210px;
+}
+.line39:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line40{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:210px;
+}
+.line40:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line41{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:220px;
+}
+.line41:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line42{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:227px;
+}
+.line42:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line43{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:238px;
+}
+.line43:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line44{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:245px;
+}
+.line44:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line45{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:260px;
+}
+.line45:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line46{
+	z-index: 2;
+	position: relative;
+	font-size: 20pt;
+	color:#dd00d2;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:270px;
+}
+.line46:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line47{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:290px;
+}
+.line47:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line48{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:290px;
+}
+.line48:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line49{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:290px;
+}
+.line49:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line50{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:290px;
+}
+.line50:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line51{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:280px;
+}
+.line51:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line52{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:270px;
+}
+.line52:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line53{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:260px;
+}
+.line53:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line54{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:240px;
+}
+.line54:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line55{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:220px;
+}
+.line55:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line56{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:200px;
+}
+.line56:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line57{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:180px;
+}
+.line57:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line58{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:175px;
+}
+.line58:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line59{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:170px;
+}
+.line59:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line60{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:170px;
+}
+.line60:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line61{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:167px;
+}
+.line61:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line62{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:163px;
+}
+.line62:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line63{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:160px;
+}
+.line63:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line64{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:163px;
+}
+.line64:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line65{
+	z-index: 2;
+	position: relative;
+	font-size: 17pt;
+	color:#c300dd;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:170px;
+}
+.line65:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line66{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:185px;
+}
+.line66:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line67{
+	z-index: 2;
+	position: relative;
+	font-size:15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:195px;
+}
+.line67:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line68{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:220px;
+}
+.line68:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line69{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:230px;
+}
+.line69:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line70{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:240px;
+}
+.line70:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line71{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:240px;
+}
+.line71:hover{
+	color:#8e8e8d;
+	transition: .5s;
+
+}
+
+.line72{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:240px;
+}
+.line72:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line73{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:238px;
+}
+.line73:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line74{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:236px;
+}
+.line74:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line75{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:230px;
+}
+.line75:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line76{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:220px;
+}
+.line76:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line77{
+	z-index: 2;
+	position: relative;
+	font-size: 15pt;
+	color:#ae00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:210px;
+}
+.line77:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line78{
+	z-index: 2;
+	position: relative;
+	font-size: 14pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:198px;
+}
+.line78:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line79{
+	z-index: 2;
+	position: relative;
+	font-size: 14pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:185px;
+}
+.line79:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line80{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:165px;
+}
+.line80:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line81{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:145px;
+}
+.line81:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line82{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:130px;
+}
+.line82:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line83{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:110px;
+}
+.line83:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line84{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:90px;
+}
+.line84:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line85{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:70px;
+}
+.line85:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line86{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:52px;
+}
+.line86:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line87{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:46px;
+}
+.line87:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line88{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:42px;
+}
+.line88:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line89{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:37px;
+}
+.line89:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line90{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:35px;
+}
+.line90:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+
+.line91{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:36px;
+}
+.line91:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line92{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:42px;
+}
+.line92:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line93{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:45px;
+}
+.line93:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line94{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:45px;
+}
+.line94:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line95{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:38px;
+}
+.line95:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line96{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:30px;
+}
+.line96:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line97{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:22px;
+}
+.line97:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line98{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:17px;
+}
+.line98:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line99{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:24px;
+}
+.line99:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line100{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:35px;
+}
+.line100:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line101{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:45px;
+}
+.line101:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line102{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:60px;
+}
+.line102:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line103{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:65px;
+}
+.line103:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line104{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:69px;
+}
+.line104:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line105{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:60px;
+}
+.line105:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line106{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:53px;
+}
+.line106:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line107{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:45px;
+}
+.line107:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line108{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:40px;
+}
+.line108:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line109{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:25px;
+}
+.line109:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line110{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:10px;
+}
+.line110:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line111{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:8px;
+}
+.line111:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line112{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:8px;
+}
+.line112:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line113{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:10px;
+}
+.line113:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line114{
+	z-index: 2;
+	position: relative;
+	font-size: 12pt;
+	color:#7700ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:20px;
+}
+.line114:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line115{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:50px;
+}
+.line115:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line116{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:68px;
+}
+.line116:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line117{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:90px;
+}
+.line117:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line118{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:135px;
+}
+.line118:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line119{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:155px;
+}
+.line119:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line120{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:163px;
+}
+.line120:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line121{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:163px;
+}
+.line121:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line122{
+	z-index: 2;
+	position: relative;
+	font-size:10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:157px;
+}
+.line122:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line123{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:150px;
+}
+.line123:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line124{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:140px;
+}
+.line124:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line125{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:125px;
+}
+.line125:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.line126{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:108px;
+}
+.line126:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+.line127{
+	z-index: 2;
+	position: relative;
+	font-size: 10pt;
+	color:#2a00ff;
+	transition:1s;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-left:90px;
+}
+.line127:hover{
+	color:#8e8e8d;
+	transition: .5s;
+}
+
+.secondimage{
+	z-index: 2;
+	position: relative;
+	margin-left: -30px;
+	width: 1350px;
+}
